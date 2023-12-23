@@ -1,0 +1,49 @@
+
+
+/*I am making the displays none for
+lottieTwo & lottieThree, so that they 
+don't show when the screen is small,
+like this*/
+
+@media(max-width: 767.98px){
+    .lottieTwo{
+        display: none;
+    }
+    .lottieThree{
+        display: none;
+    }
+
+}
+
+
+
+@media(min-width: 768px){
+    .lottieOne{
+        display: none;
+    }
+
+    /*Below lottieTwo has display block, so that 
+    the lottie displays when the screen
+    is at min width of 768px.*/
+    .lottieTwo{
+        display: block;
+    }
+    .lottieThree{
+        display: none;
+    }
+
+}
+
+@media(min-width: 1067.98px){
+    .lottieOne{
+        display: none;
+    }
+    
+    .lottieTwo{
+        display: none;
+    }
+    .lottieThree{
+        display: block;
+    }
+
+}
